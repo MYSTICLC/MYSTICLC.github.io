@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="热门游戏浅层析评ps：目前只扩展析评了碧蓝和龙崖 一、碧蓝航线碧蓝航线是一款基于现实船舰结合架空幻想所产出的一款舰船拟人化的二次元手游，它讲述了玩家作为指挥官和舰娘经历各种事件并肩成长的故事。而碧蓝的核心玩法就是“养成+战斗”。 养成系统：养成系统主要分为人物养成和装备养成两个模块：人物养成：人物养成主要是指升级、强化、突破以及觉醒四个部分。  升级部分是最简单的，玩家只需要在主线、活动或者大世界">
+<meta property="og:type" content="article">
+<meta property="og:title" content="热门游戏浅析评">
+<meta property="og:url" content="http://example.com/2023/03/17/13304.html">
+<meta property="og:site_name" content="夜轩阁">
+<meta property="og:description" content="热门游戏浅层析评ps：目前只扩展析评了碧蓝和龙崖 一、碧蓝航线碧蓝航线是一款基于现实船舰结合架空幻想所产出的一款舰船拟人化的二次元手游，它讲述了玩家作为指挥官和舰娘经历各种事件并肩成长的故事。而碧蓝的核心玩法就是“养成+战斗”。 养成系统：养成系统主要分为人物养成和装备养成两个模块：人物养成：人物养成主要是指升级、强化、突破以及觉醒四个部分。  升级部分是最简单的，玩家只需要在主线、活动或者大世界">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-03-17T05:20:50.000Z">
+<meta property="article:modified_time" content="2023-03-24T07:49:30.842Z">
+<meta property="article:author" content="夜雨听尘">
+<meta property="article:tag" content="游戏浅析评">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2023/03/17/13304.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>热门游戏浅析评 | 夜轩阁</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">夜轩阁</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/03/17/13304.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="夜雨听尘">
+      <meta itemprop="description" content="君子坐而论道，少年起而行之">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="夜轩阁">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          热门游戏浅析评
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-03-17 13:20:50" itemprop="dateCreated datePublished" datetime="2023-03-17T13:20:50+08:00">2023-03-17</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-03-24 15:49:30" itemprop="dateModified" datetime="2023-03-24T15:49:30+08:00">2023-03-24</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%B8%B8%E6%88%8F%E7%B1%BB/" itemprop="url" rel="index"><span itemprop="name">游戏类</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>12k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>11 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="热门游戏浅层析评"><a href="#热门游戏浅层析评" class="headerlink" title="热门游戏浅层析评"></a><center>热门游戏浅层析评</center></h1><p><em><strong><font color=red>ps：目前只扩展析评了碧蓝和龙崖</font></strong></em></p>
+<h2 id="一、碧蓝航线"><a href="#一、碧蓝航线" class="headerlink" title="一、碧蓝航线"></a>一、碧蓝航线</h2><p>碧蓝航线是一款基于现实船舰结合架空幻想所产出的一款舰船拟人化的二次元手游，它讲述了玩家作为指挥官和舰娘经历各种事件并肩成长的故事。而碧蓝的核心玩法就是“养成+战斗”。</p>
+<h3 id="养成系统：养成系统主要分为人物养成和装备养成两个模块："><a href="#养成系统：养成系统主要分为人物养成和装备养成两个模块：" class="headerlink" title="养成系统：养成系统主要分为人物养成和装备养成两个模块："></a>养成系统：养成系统主要分为人物养成和装备养成两个模块：</h3><p>人物养成：人物养成主要是指升级、强化、突破以及觉醒四个部分。</p>
+<ul>
+<li>升级部分是最简单的，玩家只需要在主线、活动或者大世界中出击就能获得经验值让舰娘等级提升，或者通过后宅也可以达到相同效果只是需要的时间更长。</li>
+<li>强化则是根据炮击、强化、雷击、装填四种属性添加拥有相应科技点的舰娘作为强化材料来进行强化操作，获取方式也很简单，主线打捞白色舰船来作为强化材料即可。</li>
+<li>突破则有一定的门槛，需要用同样的船或者布里来进行突破，游戏前期，新玩家会有金布里不够突破的烦恼，金布里一般只能在周常和活动中获取。</li>
+<li>觉醒则是最高的人物养成门槛，心智的主要获取渠道就是每日任务、核心兑换以及每个月的活动，且每次觉醒需要消耗不少的物资，前中期玩家觉醒材料很容易不够用。</li>
+</ul>
+<p>总的来说，人物的养成模块并不复杂，但每个阶段都需要花时间和精力来获取相应的材料，很好的保证了玩家的日活时长，且同时保证了玩家与想养成的舰娘相处的时间，增强了玩家的代入感。</p>
+<p>装备养成：装备的养成准确地说应该是装备的强化和获取。</p>
+<ul>
+<li>在前期，玩家的装备主要是通过主线打捞和开科技箱获取装备，这些装备一般只用于前期过度，除了一些比较好的装备比如液压，不如只用强化到+6最多强化到+10的地步，不会对玩家的资源造成过大的消耗。</li>
+<li>而在中后期，玩家就需要在科研队列和大世界两个方面下功夫，用科研图纸合成顶级的装备，比如：天雷；也可以肝大世界的材料合成想要的装备，比如：JU-87。而且，玩家要将装备强化到+13，也需要肝大世界来获得强化材料。故而这个过程是一个相当长的养成过程，需要耗费玩家大量的时间进行投入，这也是碧蓝养成最花精力的地方了，不过当你第一架天雷出厂的时候，你一定有一种成就感。</li>
+</ul>
+<p>可见，碧蓝的装备养成模块就是玩家的长期战，通过玩家投入的时间获得更好更强的装备，能够在战斗中表现得越来越好，真切地反馈给了玩家一种养成的成就感。</p>
+<h3 id="战斗系统：战斗系统是指作战场景和作战策略两个模块："><a href="#战斗系统：战斗系统是指作战场景和作战策略两个模块：" class="headerlink" title="战斗系统：战斗系统是指作战场景和作战策略两个模块："></a>战斗系统：战斗系统是指作战场景和作战策略两个模块：</h3><p>作战场景：作战场景一般指普通关卡、困难关卡和EX关卡三种不同难度的关卡</p>
+<ul>
+<li>普通关卡的作战难度一般很低，适合前期玩家用来练级、打捞材料、打捞pt和刷好感度，但是相对的，普通关卡的收益也会相对低一点。</li>
+<li>困难关卡的作战难度一般始终，适合中后期玩家用来练级、打捞材料、打捞pt和刷物资。困难关卡会针对玩家的舰队总属性进行了最低要求限制，提高了关卡门槛和作战难度，同时收益也会丰厚一些。</li>
+<li>EX关卡指的是挑战关卡，没有奖励，但通关EX关卡会有一个分数，这个分数会在当期EX关卡排行榜上进行排行展示给同服玩家。EX关卡对玩家主力舰队的水准要求很高，要求玩家在限时内能秒掉boss，同时，一般来说EX关卡EX关卡中玩家若熟练手操操作一般能打出更高的分数，故而，EX关卡是最难的，对人物练度和手操熟练度都有不低的要求。</li>
+</ul>
+<p>作战策略：作战策略是指编队、装备配备、调速对轴三个部分。</p>
+<ul>
+<li>编队指的是是对水面舰队进行合理搭配，水面舰队分为先锋舰队和主力舰队，合理的搭配可以使得整个队伍战斗表现更加出色。碧蓝的水面舰队的编队方式一般分为航母队和炮队(手操雷暴队就不在此介绍了)，航母队一般指舟信白等强力航母作为主力+2个前锋航母拐+1个坦位的组合队伍，航母队在吃满buff且处于低防空图时能够打出高额的轰炸伤害。而炮队一般指前花武藏等战列+2个战列拐+1个坦位的组合队伍，炮队的对轴要求略低于航母队，伤害更加稳定，但是伤害上限略低于航母队。在应对不同场合时，合理的编队选择能够达到更好的效果。</li>
+<li>装备配备是指根据编队中舰船的技能以及应用的场合的需求，配备不同的装备的选择策略。在碧蓝航线中拥有pvp和pve两种游戏形式，在不同的形式中，相同的舰船的装备选取也是不同的，且打pvp时，玩家还需要根据对手的舰队阵容合理调配自己的配装，比如遇到点火队可以选择带灭火器进行应对，在pve中也一样，比如遇到高制空图时，可以搭配SG雷达等防空装备降低对面航母所造成的伤害。</li>
+<li>调速是我个人感觉中，碧蓝战斗系统中最有趣的部分。它是玩家在进行战斗前，需要根据自己舰船的实时属性数据，在计算舰船的技能的增幅后，进行合理的装备调配、编队调整和科技点选取，使得主力舰队能够伤害最大化的一种战术技巧。这个技巧的收益在月度困难BOSS上体现的尤为明显，在相同配置的条件下，会调速对轴的玩家和不会调速对轴的后期玩家打月度困难可能就会是一刀斩和两刀斩的区别。同样的，学好了调速技巧也能够让玩家无视一些练度要求，在玩家养成度不够时，原本需要更高练度才能打通的boss或者关卡，通过合理的对轴将伤害收益最大化后也可以将这些关卡通关。而且学会调速也能反馈给玩家一种成就感，让玩家意识到自己能做的不只是提升练度，还可以提高技巧来战斗，当别的玩家拿着和你一样的配置却打不过你已经通关的关卡时，这种成就感就更加明显了。</li>
+</ul>
+<p>以上就是碧蓝最核心的两个模块，也是基于这两个模块才能让玩家从游戏中收获陪伴感、成就感和收获感。</p>
+<h3 id="碧蓝的优点："><a href="#碧蓝的优点：" class="headerlink" title="碧蓝的优点："></a>碧蓝的优点：</h3><ul>
+<li>1.人物塑造成功，每一位舰娘都有不同的故事背景，不同的性格特色，不同的立绘风格(哪怕是同一位画师，在不同的人物塑造前提下，绘画出来的人物也不会让人感觉重复度很高，千篇一律。以Kincora老师为例，在碧蓝中创造了<a target="_blank" rel="noopener" href="https://wiki.biligame.com/blhx/%E5%A4%A9%E7%8B%BC%E6%98%9F">天狼星</a>,<a target="_blank" rel="noopener" href="https://wiki.biligame.com/blhx/%E5%8F%AF%E7%95%8F">可畏(肥恐龙)</a>,<a target="_blank" rel="noopener" href="https://wiki.biligame.com/blhx/%E6%81%B6%E6%AF%92">恶毒</a>等作品，虽然这些人物都出自于他的笔下，但是你能明显感觉到人物有自己不同的特色。以天狼星、恶毒、可畏为例：天狼星的原画立绘是持剑身着白色女仆装的天狼星，其眼神明显注视着指挥官的视角，能够感觉出其对你的重视与守卫你的意愿，再配上白丝和身材好的特点，很好的展现了西方女仆风，满足了玩家的想象；而可畏的原画则是身着礼服作西方屈膝礼动作的”淑女”，落地的长发和端庄的仪态更让这种皇家淑女的印象深入人心，这种风格也增强了在玩家知道可畏真实性格后的反差感，从而对角色的印象更加深刻；最后是恶毒，及腰白发、白丝、丸子头、蓝瞳以及娇小的身形很好的展现出了一个白毛萝莉的形象，让人忍不住欢喜。三位角色，虽然出自同一人之手，但却展现了各不相同的人物形象，很好地体现了碧蓝航线人物细节塑造丰富的特点。)，在这些不同的组合中，创造出了一位位生动形象的角色，令玩家记忆深刻，愿意去了解这些虽然虚拟却又真实的人物。</li>
+<li>2.优秀的cv演绎与搭配，每一位舰娘的cv担当都很好地去演绎了这个角色地台词，令角色更加活灵活现。以加隈 亚衣老师为例，她在碧蓝中承担了<a target="_blank" rel="noopener" href="https://wiki.biligame.com/blhx/%E5%9F%83%E5%85%8B%E5%A1%9E%E7%89%B9">埃克塞特</a>,<a target="_blank" rel="noopener" href="https://wiki.biligame.com/blhx/%E7%8B%AC%E8%A7%92%E5%85%BD">独角兽</a>,<a target="_blank" rel="noopener" href="https://wiki.biligame.com/blhx/%E9%AB%98%E9%9B%84">高雄(獒)</a>三名角色的cv工作。其中埃克塞特的语音有明显的皇家战士色彩，能够从老师的演绎出听出其正直、勇敢、荣誉的性格特点；而独角兽的语音中则有很重的妹系特点，老师更是用了软妹的声线将独角兽害羞、内向、软萌但又有着坚毅的性格特点展现得淋漓尽致，让玩家仿佛能够感觉到自己真的有了一个可爱的小妹妹，惹人疼爱；而高雄更是与前两位截然不同，每一句台词都能体现出其认真、自律、努力与严谨的性格特点，很好的将高雄的武士身份展现出来，没有一丝一毫的违和。同一个cv都能将不同的角色展现出不同的个人风格，更何况不同的cv老师呢？在这些cv的共同演绎下，玩家与角色的距离又被进一步地缩短了，让玩家能够更好地体会每个人物的美感，被她们的人物色彩所吸引，从而更加的热爱这个游戏，愿意去了解这个游戏的故事，成为这个游戏的陪伴者与见证人。</li>
+<li>3.出色的人物交互系统，以<a target="_blank" rel="noopener" href="https://wiki.biligame.com/blhx/%E8%83%BD%E4%BB%A3">能代</a>的”祭典的秘境?”交互动作作为例子：在进行主界面1的交互时，她会把双手背在背后，慢慢讲述是怎么发现这条小路的；在进行主界面2的交互时，她会收起苹果糖，将手作出警告示来提醒你注意脚下；在进行主界面3的交互时，她会将左右衣摆展示给玩家看，以让玩家明白这个祭典服穿戴麻烦；在进行普通触摸的交互时，她会做害羞的表情和动作；在摸她的头时，她会舔舔手中的苹果糖；在进行任务提醒交互时，她会有建议的姿势来建议你进行工作规划；在任务完成时，她会朝你摆摆手；在进行邮件提醒交互时，她会从背后拿出信件说着自己要检查一下。这些动作虽然不复杂，但组合在一起却赋予了少女灵性，不再像传统的二次元人物一样隔阂感很重，同时这些动作也展现了少女的少女气质，让她看起来更像一个有着自己性格特色的少女。这种细节化的交互动作设计，配合应景应情的台词设计，无疑不是让人更加能够从游戏中获取陪伴感与安慰。</li>
+</ul>
+<h3 id="碧蓝的缺点："><a href="#碧蓝的缺点：" class="headerlink" title="碧蓝的缺点："></a>碧蓝的缺点：</h3><ul>
+<li>1.随着游戏运营时间越来越长，游戏里的限定舰船越来越多，每个限定舰船的复刻周期变得越来越长，这会导致后入坑的玩家等待自己想要的舰船的周期非常长，很容易消磨掉这些新用户的热情，这会导致游戏新鲜血液流入速度很慢，游戏用户数目固定在一个范围，难以突破。</li>
+<li>2.传统的2D弹幕手游玩法，在如今各种玩法层出不穷的游戏市场中是一个比较的明显的缺点，这个缺点会导致游戏本身的创新性受到玩法的限制，很难拓展自己的受众圈，同时也很难扩大玩家的规模。</li>
+</ul>
+<h3 id="碧蓝成功的理由："><a href="#碧蓝成功的理由：" class="headerlink" title="碧蓝成功的理由："></a>碧蓝成功的理由：</h3><ul>
+<li>1.游戏开服时以军事题材吸引了一波军事迷作为自己的基础用户群体，之后再根据自己的美术资源优势媚宅不断地吸引二次元用户尝试这个游戏。可以看出来，黄鸡对碧蓝航线的用户定位是十分准确的，它明白用户的需求，且会去尽量满足用户的需求，同时不会在媚宅与排宅这种核心问题上反复横跳。一个能够供人所需的游戏，没有理由不火。</li>
+<li>2.对自己的营收方式定位准确，作为一个长期养成的游戏，并没有将氪金抽卡作为自己的主要营收渠道，而是根据自己的美术优势，将自己的美术资源作为卖点、以舰娘皮肤和婚戒作为游戏的主要盈利点。这样的选择方式，维持了无氪玩家的数目，稳定了游戏的日活量，保证了游戏的日常热度，同时保证了中低氪玩家的生存空间，扩大了付费用户的规模与数目，同时也提高了玩家的付费意愿。虽然这样的选择可能会造成短期利益的降低，但在游戏玩法不够出色，且舰娘数目增幅快的情况下，选择氪金抽卡制未必能带来更高的收益，还有可能大幅度缩短游戏的寿命。</li>
+<li>3.优秀的游戏运营，黄鸡运营碧蓝四年多，遇到了各种运营问题(以偶像大师联动事件为例，玩家在21年7.22日的各个动态里提出质疑，偶像大师联动角色设定不符合碧蓝本身的设定，且在活动剧情里舰娘人设严重ooc，且出现了文案二义性，引起了大量批评的声音出现，而在23号，黄鸡就决定删除有关文案并进行整改，且对玩家郑重道歉)，但是每次黄鸡的运用都处理得很迅速，积极回答了玩家的疑问，并对出现问题的地方迅速整改，这样的处理方式很好的把控了游戏公司与玩家之间的平衡收益点，让公司在盈利的前提下，也在玩家群体中获得了良好的口碑，同时在在各大手游平台都具有优秀的评分(例：TapTap:9.4,bilibili:8.6,google play:4.4,好游快爆：9.4 等等)，可见，一个优秀的运营也能决定游戏是否有资格在游戏市场中具有竞争力。</li>
+<li>4.成功的ip塑造，碧蓝航线成功后，黄鸡并没有急着推出下一款游戏，而是扩大碧蓝的影响力，制作碧蓝航线的番剧，推出碧蓝航线的同人周边，订购碧蓝的二创商单，继续认真更新游戏本身的内容等行为，都给了这个ip更好的发展生态，让这个ip在未来拥有更好的成长空间和成长潜力。</li>
+</ul>
+<h3 id="对碧蓝的评价"><a href="#对碧蓝的评价" class="headerlink" title="对碧蓝的评价"></a>对碧蓝的评价</h3><p>站在玩家的角度上，碧蓝航线对我来说是一款体验很不错的游戏。</p>
+<ul>
+<li>从氪金度来说，碧蓝航线的l2d皮只要一千二的红尖尖，婚戒在买”比翼双飞”礼包时也不算贵，哪怕是要扩建船坞所花费的钱也不是很多，都是在我承受范围之内的花销，不像其他数值向游戏，需要我因为数值徒增很多不必要的开销；</li>
+<li>从美术资源上来说，碧蓝航线的美术风格很符合我的审美，每一位舰娘都有属于自己的画风和特色，满足了我的审美需求，让我在玩游戏的时候能够看看好看的二次元舰娘，心情愉悦。</li>
+<li>从游戏乐趣上来说，虽然我对2d横板弹幕的玩法不是很感冒，但是在碧蓝中我通过养成获得的乐趣却有很多。在每次培养舰娘强度的过程中，看着她不断地变强，从被敌人击沉到独当一面，我都能收获到满满的收获感。在和舰娘培养好感度的过程中，看着她对”我”从陌生到爱慕的过程，让我能够感受到人物对我态度的变化，能够陪同她们成长，这些都让我收获到了满足感与陪伴感。而在不断更新队伍强度、配对策略、学习调速对轴的过程中，我从十刀meta到三刀meta到两刀meta到一刀斩，每一次进步都让我觉得我这段时间为了这个游戏花费的时间是值得的，同样，这种进步也给我带来满满的成就感。正是因为这些乐趣，才能让我一直游玩这个游戏，愿意去花时间和精力对它进行投入。</li>
+<li>从游戏运营上来说，小加加的运营让人感到很舒服，每次出现问题都迅速回复的态度，每次出现问题都及时改正的行为，重视玩家意见、愿意玩家沟通交流的想法，都能体现出黄鸡运营对于玩家群体的重视。”谁能载舟，亦能覆舟”，游戏公司本就是基于游戏玩家才能生存下去，游戏玩家也因为游戏公司才有好的游戏玩，互相尊重，共同成长的选择，又如何能不让人感觉到舒服？又如何不让玩家对它给与信任，愿意陪它一同成长呢？</li>
+</ul>
+<p>站在策划的角度上，碧蓝航线应该也是一款很不错的游戏。</p>
+<ul>
+<li>从游戏营收上来说，碧蓝航线每个月都有不错的稳定的营收(以2022年ios的收入数据来看，每个月碧蓝航线的收入都在一百万美元以上，且在2022年一年的总营收将近两千万美元，这以碧蓝航线的玩家体量来说，是一个非常高的数目（数据来源：七麦数据）)，而且从数据上营收来看，碧蓝航线每年的营收数值都很稳定，可以看出其玩家流失率并不高，一款营收稳定，日活稳定的游戏，可以说很不错了。</li>
+<li>从人物塑造的角度上来讲，碧蓝航线的每个舰娘都有针对人物性格所定制化的台词设计、交互动作设计、立绘风格，这种细节化针对化的人物设计方式很好地塑造了人物的形象，将人物能够更加立体化地呈现在用户面前。故而，在碧蓝航线上，能够吸取到很多关于人物设计的经验和塑造人物形象的方法。</li>
+<li>从游戏口碑上来说，碧蓝航线在保证了收入的同时还得到了大部分玩家的肯定，在各个游戏平台都收获了玩家的一致好评，故而，可以看出，这种在游戏营收与玩家利益中寻找平衡点的思路是有参考学习的必要的，同时黄鸡的这种同玩家友好沟通的运营方式也可以用来参考借鉴。</li>
+</ul>
+<span id="more"></span>
+
+<h2 id="二、崩坏3rd"><a href="#二、崩坏3rd" class="headerlink" title="二、崩坏3rd"></a>二、崩坏3rd</h2><p>崩坏3rd是3D的ARPG手游，它讲述了主角琪亚娜在与”崩坏“对抗的过程中不断成长的故事。<br>崩坏3是崩坏学园2这个ip的衍生作品，核心玩法是“角色养成+竞速战斗”的玩法。玩家要培养角色搭配圣痕和武器，搭配不同的阵容，使用”速切流“或者”站场流“等搭配来挑战战场和深渊两个竞速pve本。玩家要培养角色所花的材料大都出自于这两个pve竞速本，所以游戏投入成本会很高。</p>
+<h3 id="崩坏的优点："><a href="#崩坏的优点：" class="headerlink" title="崩坏的优点："></a>崩坏的优点：</h3><ul>
+<li>1.优秀的人物建模与人物立绘，作为一个二次元游戏，崩坏三的美术建模在同行里是十分出色的，这吸引了一大批二次元用户尝试这个游戏。</li>
+<li>2.在3DARPG手游题材下拥有一整套优秀的适配手机的动作设计，在国内二次元ARPG手游市场里占据一席之地。</li>
+<li>3.游戏特效和游戏击打反馈做的十分优秀，在目前的3DARPG手游市场里可以算是独占鳌头。</li>
+</ul>
+<h3 id="崩坏的缺点："><a href="#崩坏的缺点：" class="headerlink" title="崩坏的缺点："></a>崩坏的缺点：</h3><ul>
+<li>1.过高的数值膨胀和过快的数值更迭，在游戏中后期导致act这个核心弱化，变成了数值游戏。</li>
+<li>2.游戏的优化机制过弱，一般设备在开放世界里可以感觉到明显的发热和卡顿现象。</li>
+</ul>
+<h3 id="崩坏为什么能成功？"><a href="#崩坏为什么能成功？" class="headerlink" title="崩坏为什么能成功？"></a>崩坏为什么能成功？</h3><ul>
+<li>1.崩坏3出现的时候，手游ARPG市场饱和度低，而且当时3DARPG手游作品更是少之又少，崩坏3自然吃了螃蟹，而后来的游戏市场中，3darpg这个类型也很少有国内的厂商去做，竞品少，有力度的竞品更少，崩坏3成功也是自然而然的事。</li>
+<li>2.崩坏3的宣发力度很高，在二次元和非二次元平台都能看到崩坏3的广告，这给他创造了持续不断的热度和知名度，拥有稳定的新用户流入量。</li>
+<li>3.崩坏3的深渊战场pve竞速机制虽然会造成内卷，但是也给了前排玩家转变为核心用户的动力，很好的留住了中高付费用户。</li>
+<li>4.崩坏3的运营方式从滑跪式运营到冷处理式运营，成功的提纯了一堆核心粉丝，保证了游戏的基本盘，同时也保证了出现运营事故不会暴死。</li>
+<li>5.氪金抽卡的营收方式，刺激了玩家的消费欲，极大的提高了游戏带来的利润。</li>
+<li>6.崩坏3的游戏核心——动作机制足够优秀。</li>
+</ul>
+<h3 id="崩坏3为什么口碑不稳定"><a href="#崩坏3为什么口碑不稳定" class="headerlink" title="崩坏3为什么口碑不稳定?"></a>崩坏3为什么口碑不稳定?</h3><ul>
+<li>1.冷处理的问题处理方式，会在出现运营事故时造成大量的玩家流失，比如:0.98事件、大月卡事件、2018年夏活事件、停氪新s滚事件、兔女郎事件等等，都对当时崩坏3的营收和人员留存率造成了不小的影响，且提纯式的运营方式，在给公司带来粉丝的同时也会培养黑粉的存在，更有可能导致极端人士作出极端行为。</li>
+<li>2.游戏内数值和强势女武神更新迭代速度过快，导致玩家需要投入大量的人力、精力、财力，给玩家造成负担，有上班打卡的感觉，降低了玩家的满意度。</li>
+<li>3.游戏的氪金点过多，氪金保质期短、氪金价格昂贵。</li>
+<li>4.游戏活动时不时试探玩家底线，降低玩家满意度。</li>
+</ul>
+<h2 id="三、永劫无间"><a href="#三、永劫无间" class="headerlink" title="三、永劫无间"></a>三、永劫无间</h2><p>永劫无间是一款3DACT格斗类吃鸡端游，它的前身是流星蝴蝶剑。它的核心玩法就是”猜拳“机制，玩家围绕最基本的蓝霸体、金霸体、和普通无霸体三种机制学习各种动作技巧和动作连招，在与对手的心理博弈和动作博弈中寻找对手破绽，从而取得胜利。</p>
+<h3 id="永劫无间的优点："><a href="#永劫无间的优点：" class="headerlink" title="永劫无间的优点："></a>永劫无间的优点：</h3><ul>
+<li>1.优秀的人物动作设计，每一个动作都很丝滑且具有美感，让玩家真的有一种生处江湖之中，与人一争高下的快感。</li>
+<li>2.优秀的武器系统，各种各样的武器设计，不单一局限于刀枪棍棒，丰富了游戏的打斗机制。</li>
+<li>3.优秀的游戏题材，玄幻武侠的背景具有很浓烈的国风色彩，能够吸引大批量的玩家入坑游玩。</li>
+<li>4.优秀的特效设计，让玩家能享受到3DACT格斗游戏的美感。</li>
+<li>5.优秀的美术资源，每张地图的建模都十分优秀，条纹清晰，具有美感，设计的武器皮肤和人物皮肤也很特别，让人有眼前一亮的感觉。</li>
+</ul>
+<h3 id="永劫无间的缺点："><a href="#永劫无间的缺点：" class="headerlink" title="永劫无间的缺点："></a>永劫无间的缺点：</h3><ul>
+<li>1.高低延迟的差距会导致游戏公平性的缺失，网络的优化过差。</li>
+<li>2.游戏的优化做的太差，当同一地点人数过多，游戏掉帧会很明显。</li>
+<li>3.武器和人物的平衡做的不是很好，导致了排位机制中角色阵容相对固定，没有多样性。</li>
+<li>4.反作弊机制不够优秀，降低普通玩家的游戏意愿。</li>
+</ul>
+<h3 id="为什么永劫无间能成功？"><a href="#为什么永劫无间能成功？" class="headerlink" title="为什么永劫无间能成功？"></a>为什么永劫无间能成功？</h3><ul>
+<li>1.游戏的题材和玩法足够出色，动作设计也足够硬核，占据一定市场理所应当。</li>
+<li>2.游戏的美术资源利用的很到位，优秀的人物建模和捏脸机制也吸引了颜值用户。</li>
+<li>3.懂得扩展用户圈和ip发展，与各种游戏进行联动，增加游戏的讨论热度。</li>
+<li>4.国风色彩浓烈，在国内有得天独厚的优势。</li>
+</ul>
+<h3 id="为什么永劫无间口碑从开始的人人夸到后面的人人骂？"><a href="#为什么永劫无间口碑从开始的人人夸到后面的人人骂？" class="headerlink" title="为什么永劫无间口碑从开始的人人夸到后面的人人骂？"></a>为什么永劫无间口碑从开始的人人夸到后面的人人骂？</h3><ul>
+<li>1.游戏运营对游戏生态维护差，出现过各种运营事故，流失大量玩家。</li>
+<li>2.游戏的优化导致中低配玩家游玩过于难受，且长期反馈后优化效果仍然不明显。</li>
+<li>3.炸鱼的、开挂的人太多，降低了玩家的游戏体验感。</li>
+</ul>
+<h2 id="四、龙崖"><a href="#四、龙崖" class="headerlink" title="四、龙崖"></a>四、龙崖</h2><p>龙崖是一款传统的RPG游戏，讲述的是玩家在其中扮演一位领主，不断扩建经营自己的领土同时对外进行探索冒险的故事。龙崖的玩法核心是“养成经营+挂机+探索冒险+策略”。</p>
+<h3 id="经营养成：经营养成指的是人物养成和城镇经营两个模块："><a href="#经营养成：经营养成指的是人物养成和城镇经营两个模块：" class="headerlink" title="经营养成：经营养成指的是人物养成和城镇经营两个模块："></a>经营养成：经营养成指的是人物养成和城镇经营两个模块：</h3><p>人物养成：人物养成指的是对人物进行升级、天赋搭配、装备搭配三个部分。</p>
+<ul>
+<li>升级是最简单的部分，玩家只需要完成任务或者在外冒险获得训练点就可以任务升级。</li>
+<li>每升5级，该角色就能得到一个天赋点，天赋树有很多分支，一般分为辅助性天赋、攻击性天赋、防御性天赋三个模块，能够提升人物的一些特殊属性，使得人物更加强大。</li>
+<li>基础的装备位有武器、防具、饰品三个部分，分为普通、稀有、史诗、传奇、远古以及星辰六个等级，给不同职业定位的角色配备不同类型的武器、防具、饰品还有镶嵌合适的宝石，能够使得角色的特性最大化。而装备的来源就是依靠商店、打造和冒险掉落三个渠道，但从本质上来说，其实都是基于探索冒险的基础上才能获取装备，因此龙崖的养成模块和探索冒险模块联系是十分紧密的。</li>
+</ul>
+<p>总的来说，人物的养成系统很简单，玩家很容易就能上手，但是养成的材料需要玩家多次战斗获取。</p>
+<p>城镇经营：城镇经营主要分为居民管理、酒馆招募、防具店、武器店以及商店五个部分。</p>
+<ul>
+<li>城镇中可以有很多居民，不同的居民有不同的作用，有的能提高装备生产速度；有的能提高武器、防具的售价；有的能提高战斗以及任务获得的训练点数。总之，居民的作用就是帮助玩家更高效的培养冒险者，而扩建住所也可以使得城镇入住更多居民。</li>
+<li>酒馆招募是用来招募冒险者的，冒险者分为普通、稀有、史诗、传奇以及远古五个级别，每个级别有不同的成长系数和不同的伤害倍率，越高的级别带来的收益越高，玩家在酒馆里可以通过金币雇佣冒险者来帮助自己更好地进行冒险探索。</li>
+<li>防具店可以根据玩家冒险中掉落的防具图纸消耗材料来打造对应的装备，打造的防具品质随机，玩家也可以通过大量打造防具来售卖换取金币。</li>
+<li>武器店可以根据玩家冒险中掉落的武器图纸消耗材料来打造对应的装备，打造的武器品质随机，玩家也可以通过大量打造武器来售卖换取金币。</li>
+<li>商店中玩家可以通过金币购买龙目之晶，龙目之晶可以用来给防具、武器增加宝石镶嵌孔位，也可以在商店中购买战斗道具、任务前置物、角色招募书还有饰品，这是玩家重要的变强渠道。</li>
+</ul>
+<p>从上可见，龙崖的经营养成系统和龙崖的探索冒险系统是相辅相成的，通过探索可以获得养成经营的材料，通过养成经营可以获得更多角色并且能够培养角色变得更强，使得游戏玩法变得更加具有逻辑性。</p>
+<h3 id="挂机模块：挂机模块就是指挂机系统。"><a href="#挂机模块：挂机模块就是指挂机系统。" class="headerlink" title="挂机模块：挂机模块就是指挂机系统。"></a>挂机模块：挂机模块就是指挂机系统。</h3><ul>
+<li>字面意思，玩家可以在已经攻略的关卡中挂机反复刷取材料和训练点，也可以在挂机的同时让游戏系统帮你边攻克新关卡边挂机，有效的节省了玩家的操作时间。</li>
+</ul>
+<h3 id="探索冒险：探索冒险分为任务模块、普通关卡以及困难关卡三个部分。"><a href="#探索冒险：探索冒险分为任务模块、普通关卡以及困难关卡三个部分。" class="headerlink" title="探索冒险：探索冒险分为任务模块、普通关卡以及困难关卡三个部分。"></a>探索冒险：探索冒险分为任务模块、普通关卡以及困难关卡三个部分。</h3><ul>
+<li>任务模块指的是，玩家在游玩过程中会接到任务系统发布的各种各样的任务，玩家在解决任务中的目标怪物后，能够得到丰厚的训练点数以及金币奖励</li>
+<li>普通关卡指的是玩家在没有打通普通全副本时攻打的所有关卡，普通关卡中boss没有过强的buff加成，降低了玩家的战斗练度标准，给新人玩家足够的时间来探索游戏的玩法。</li>
+<li>困难关卡指的是，在玩家普通副本全攻略后会开启的困难副本，副本中的小怪和boss都会有极大的buff增益，十分考验玩家的角色练度和搭配策略，有足够的挑战空间，也能反馈给玩家足够的成就感。</li>
+</ul>
+<p>从上可知，龙崖的游戏过程是循序渐进的，随着玩家游戏的熟练度的上升，玩家遇到的挑战难度也会逐渐上升，不会让玩家陷入到无聊之中。</p>
+<h3 id="策略模块：策略模块主要指的是职业搭配、装备及宝石搭配两个部分。"><a href="#策略模块：策略模块主要指的是职业搭配、装备及宝石搭配两个部分。" class="headerlink" title="策略模块：策略模块主要指的是职业搭配、装备及宝石搭配两个部分。"></a>策略模块：策略模块主要指的是职业搭配、装备及宝石搭配两个部分。</h3><ul>
+<li>职业搭配指的是在玩家的五人冒险小队中，玩家根据角色技能和角色的职业选取最佳的搭配阵容的策略。在龙崖中，职业分为辅助型、刺杀型、治疗型、均衡型以及坦克型。顾名思义，辅助型角色如彪悍村妇能够在战斗中给队友加上进度和敏捷buff，帮助主C更有效多次地进行输出；刺杀型角色如圆脸胖妹能够打出极高的对单dps，可以对boss造成有效打击；治疗型角色如传教士，既能治疗队友，又能驱散队友debuff，在对战高难boss时作用极大；坦克型角色如战士，拥有高额的生命成长和抗性，同时能够嘲讽对手，能有效的吸引伤害保住c位；而均衡型角色就如街头壮汉一样，属性平均，没有什么缺点也没有什么优点。优秀的职业搭配阵容，能够帮助你的冒险变得更加轻松。</li>
+<li>首先说明，龙崖中的装备穿戴是没有职业限制的，即法师也可以拿大剑，战士也可以拿法杖来输出。但是不同的职业，对不同的武器契合度明显是不同的，比如刺杀型的圆脸胖妹为例，她的职业和天赋明显与匕首、皮甲搭配后能够打出最高的dps，若是选择法杖之类的，其输出明显会下降不少。而除了装备外，宝石的搭配也很重要，同样的以圆脸胖妹为例，其战法效果是对敌方单体目标造成三次100%的物理及100%自身元素的伤害，每次暴击会为友方全体恢复伤害值30%的生命值，为其搭配亡灵灰烬(2件套效果：暴击伤害+80%，4件套效果：[绝地杀戮]：每损失10%的最高生命，都会增加40%暴击伤害持续两回合)和摄魂石(2件套效果：暴击率+30%，4件套效果：[摄魂夺魄]每次对敌方单位造成暴击都会使敌方昏迷1.0秒，可以累加)对比搭配僧侣之目(2件套效果：全元素抗性+40%，4件套效果：[戒律]：闪躲修正+10%，单次受到的伤害不超过自身血量35%的伤害)明显有更好的输出效果与输出空间，僧侣之目明显更适合与战士这类坦克职业进行搭配。正确的装备选择以及正确的宝石镶嵌，能够使玩家的冒险队伍的dps最大化。</li>
+</ul>
+<p>以上就是龙崖的四个玩法核心，每一个核心之间的关系都是相辅相成的，通过这些玩法，龙崖也能够让你明白经营、冒险、rpg游戏的魅力。</p>
+<h3 id="龙崖的优点"><a href="#龙崖的优点" class="headerlink" title="龙崖的优点"></a>龙崖的优点</h3><ul>
+<li>1.游戏操作简单，玩家入门难度低，能够保证玩家不被难度劝退。</li>
+<li>2.游戏元素丰富，拥有经营养成冒险探索肉鸽等各种玩法，有效提高了游戏的乐趣性。</li>
+<li>3.能够高效的挂机，可以避免玩家为了养成打材料花费大量的时间进行重复操作。</li>
+<li>4.玩法相对休闲，没有特别硬核的部分，能够让玩家随时玩随时关，没有什么额外负担。</li>
+</ul>
+<h3 id="龙崖的缺点"><a href="#龙崖的缺点" class="headerlink" title="龙崖的缺点"></a>龙崖的缺点</h3><ul>
+<li>1.虽然可以高效挂机，但还是没有跳脱出刷子游戏的框架，需要花费玩家经历很长的刷材料的过程。</li>
+<li>2.游戏的任务系统和剧情设定还可以更丰富一些，增加玩家探索的兴趣度，也能让游戏的内容更加丰富。</li>
+<li>3.打造出的武器、防具的品质随机性过强，可以增加一个保底功能。</li>
+</ul>
+<h3 id="龙崖为什么成功？"><a href="#龙崖为什么成功？" class="headerlink" title="龙崖为什么成功？"></a>龙崖为什么成功？</h3><ul>
+<li>1.优秀的游戏机制，不同于传统的rpg放置游戏，龙崖对数值的依赖性低很多，其决定关卡能否通关的关键还是战法的施放策略和装备宝石的搭配选取，若是策略做的不到位，六十级的人物打怪物平均等级20级的关卡翻车也是正常的事。</li>
+<li>2.丰富的人物选择，龙崖总共有25个人物，相对的也就有六百多万种人物搭配组合，如此丰富的组合，让玩家能够实现更多奇思妙想的配对，也丰富了游戏的”解题方式“,增加游戏的可玩性。</li>
+<li>3.很便宜的入手价格，哪怕是在没有优惠的时候，门票费也才35元，比起其他同价格的游戏来说，龙崖无疑算是相当出色了。</li>
+<li>4.体量小，总共也就占700多M的内存，但是在体量小的同时游戏内容也足够丰富，物有所值。同时，龙崖对时间不够的上班族很友好，能够随打随停，十分休闲。</li>
+</ul>
+<h3 id="对龙崖的评价"><a href="#对龙崖的评价" class="headerlink" title="对龙崖的评价"></a>对龙崖的评价</h3><p>站在玩家的角度，龙崖对我来说是一款能够玩而不厌的游戏。</p>
+<ul>
+<li>1.从花费上来说，龙崖这款游戏的购入价格相对其他不错的游戏来说价格偏低，减少了我的经济投入。</li>
+<li>2.从游戏机制上来说，龙崖的游戏机制对我相当友好，他不像我打lol，打到一半为了考虑队友哪怕有点事。</li>
+<li>3.从游戏乐趣上来说，每次挑战高难boss的时候我都会尝试不同的装备搭配和任务组合，在不断尝试成功攻克后，我都会有很大的成就感，同时也让我内心得到了满足，故而龙崖能带给我很多挑战的乐趣。</li>
+<li>4.从游戏生态上来说，龙崖的口碑很好，而且玩家的热情也很高，在b站贴吧等平台都有龙崖的游戏攻略，能够有效地帮助我更好地体验这款游戏的乐趣。</li>
+</ul>
+<p>站在策划的角度，龙崖同样很优秀</p>
+<ul>
+<li>1.在2018年的销售量过十万，同时在2018年中龙崖的最高同时在线人数也超过了十万，这说明龙崖的乐趣性足够，能让买了的玩家都愿意去好好玩，同时这么小体量的游戏拥有如此高的销量也是很值得让人学习的。</li>
+<li>2.龙崖的弹性很强，能适应各种游戏用户的需求，对于只有零碎游戏时间的玩家能通过挂机机制玩的很舒服，对于时间充足的玩家，也设计了足够多的关卡来让你挑战和攻略。</li>
+<li>3.龙崖现在游戏的丰富是由最开始的玩家和开发者一起探讨，逐步完善得来的，这种与玩家友好交流，补充自己的不足，认真改进的态度也值得去参考，在自己进行设计时，也可以通过这种方式，来完善自己设计的游戏的不足之处。</li>
+</ul>
+<h2 id="五、总结"><a href="#五、总结" class="headerlink" title="五、总结"></a>五、总结</h2><p>从以上的四个游戏中可以总结一些游戏成功的经验或者原因：</p>
+<h3 id="对手机游戏而言"><a href="#对手机游戏而言" class="headerlink" title="对手机游戏而言"></a>对手机游戏而言</h3><ul>
+<li>1.拥有一个优秀且独特的游戏玩法核心机制，能够有效的确保游戏在手游市场中的竞争力，这也是游戏前期吸引基础用户的重要支撑点。</li>
+<li>2.能够清楚定义游戏的目标用户群体可以帮助游戏设计团队有效的针对目标群体进行需求分析，从而能够很好扩大玩家规模与增加核心用户比例。</li>
+<li>3.优秀的美术资源和CV资源能够很好的在手游上吸引到大批用户，也能够增加付费玩家的规模和提高玩家的付费欲望。</li>
+<li>4.一个优秀的游戏运营，对于手游来说，重要性不低于游戏的游戏玩法的重要性。一个好的游戏运营能够很好的维持游戏的生态，并且减少玩家与游戏公司之间的冲突和矛盾，还能维护游戏的口碑。</li>
+<li>5.适配游戏的营收方式，能够将游戏公司的利益最大化，同时也能让用户清楚自己需要投入的支出点，尽可能让玩家有付费体验。</li>
+</ul>
+<h3 id="对端游而言"><a href="#对端游而言" class="headerlink" title="对端游而言"></a>对端游而言</h3><ul>
+<li>1.游戏本身的游戏机制是否出色，是决定这个游戏能否成功的第一要点。</li>
+<li>2.游戏生态的维护，是确保游戏能够长期运行的关键要素。</li>
+<li>3.游戏的优化好坏，是决定玩家用户群体规模的大小的要点。</li>
+<li>4.游戏背景题材的选取，能够给游戏本身加分，在国内，国产元素丰富的题材能吸引更多玩家的注意力。</li>
+</ul>
+<h3 id="对单机游戏而言"><a href="#对单机游戏而言" class="headerlink" title="对单机游戏而言"></a>对单机游戏而言</h3><ul>
+<li>1.优秀的故事剧情，能够丰富游戏的内涵，增加游戏的吸引力。</li>
+<li>2.单机游戏的核心就是自身独特的游戏机制和能让玩家体会到游戏乐趣的玩法。</li>
+<li>3.优秀的人物设计，能够给游戏玩家留下深刻的印象，提高玩家对游戏公司下一部作品的期待值。</li>
+<li>4.游戏是否有很强的扩展支持性(比如是否支持mod，是否支持创意工坊等)，能够决定一部游戏作品的玩家留存率和可玩性的上限。</li>
+<li>5.对单机游戏而言，定位自己的目标用户，愿意同玩家一起探讨游戏的不足并且改正不足之处也是游戏成功的要点之一。</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>夜雨听尘
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://example.com/2023/03/17/13304.html" title="热门游戏浅析评">http://example.com/2023/03/17/13304.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%B8%B8%E6%88%8F%E6%B5%85%E6%9E%90%E8%AF%84/" rel="tag"># 游戏浅析评</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/12/02/undefined.html" rel="prev" title="查漏补缺知识点(四)">
+      <i class="fa fa-chevron-left"></i> 查漏补缺知识点(四)
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%83%AD%E9%97%A8%E6%B8%B8%E6%88%8F%E6%B5%85%E5%B1%82%E6%9E%90%E8%AF%84"><span class="nav-number">1.</span> <span class="nav-text">热门游戏浅层析评</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF"><span class="nav-number">1.1.</span> <span class="nav-text">一、碧蓝航线</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%EF%BC%9A%E5%85%BB%E6%88%90%E7%B3%BB%E7%BB%9F%E4%B8%BB%E8%A6%81%E5%88%86%E4%B8%BA%E4%BA%BA%E7%89%A9%E5%85%BB%E6%88%90%E5%92%8C%E8%A3%85%E5%A4%87%E5%85%BB%E6%88%90%E4%B8%A4%E4%B8%AA%E6%A8%A1%E5%9D%97%EF%BC%9A"><span class="nav-number">1.1.1.</span> <span class="nav-text">养成系统：养成系统主要分为人物养成和装备养成两个模块：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%98%E6%96%97%E7%B3%BB%E7%BB%9F%EF%BC%9A%E6%88%98%E6%96%97%E7%B3%BB%E7%BB%9F%E6%98%AF%E6%8C%87%E4%BD%9C%E6%88%98%E5%9C%BA%E6%99%AF%E5%92%8C%E4%BD%9C%E6%88%98%E7%AD%96%E7%95%A5%E4%B8%A4%E4%B8%AA%E6%A8%A1%E5%9D%97%EF%BC%9A"><span class="nav-number">1.1.2.</span> <span class="nav-text">战斗系统：战斗系统是指作战场景和作战策略两个模块：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A2%A7%E8%93%9D%E7%9A%84%E4%BC%98%E7%82%B9%EF%BC%9A"><span class="nav-number">1.1.3.</span> <span class="nav-text">碧蓝的优点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A2%A7%E8%93%9D%E7%9A%84%E7%BC%BA%E7%82%B9%EF%BC%9A"><span class="nav-number">1.1.4.</span> <span class="nav-text">碧蓝的缺点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A2%A7%E8%93%9D%E6%88%90%E5%8A%9F%E7%9A%84%E7%90%86%E7%94%B1%EF%BC%9A"><span class="nav-number">1.1.5.</span> <span class="nav-text">碧蓝成功的理由：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E7%A2%A7%E8%93%9D%E7%9A%84%E8%AF%84%E4%BB%B7"><span class="nav-number">1.1.6.</span> <span class="nav-text">对碧蓝的评价</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%B4%A9%E5%9D%8F3rd"><span class="nav-number">1.2.</span> <span class="nav-text">二、崩坏3rd</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B4%A9%E5%9D%8F%E7%9A%84%E4%BC%98%E7%82%B9%EF%BC%9A"><span class="nav-number">1.2.1.</span> <span class="nav-text">崩坏的优点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B4%A9%E5%9D%8F%E7%9A%84%E7%BC%BA%E7%82%B9%EF%BC%9A"><span class="nav-number">1.2.2.</span> <span class="nav-text">崩坏的缺点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B4%A9%E5%9D%8F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%83%BD%E6%88%90%E5%8A%9F%EF%BC%9F"><span class="nav-number">1.2.3.</span> <span class="nav-text">崩坏为什么能成功？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B4%A9%E5%9D%8F3%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%A3%E7%A2%91%E4%B8%8D%E7%A8%B3%E5%AE%9A"><span class="nav-number">1.2.4.</span> <span class="nav-text">崩坏3为什么口碑不稳定?</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4"><span class="nav-number">1.3.</span> <span class="nav-text">三、永劫无间</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4%E7%9A%84%E4%BC%98%E7%82%B9%EF%BC%9A"><span class="nav-number">1.3.1.</span> <span class="nav-text">永劫无间的优点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4%E7%9A%84%E7%BC%BA%E7%82%B9%EF%BC%9A"><span class="nav-number">1.3.2.</span> <span class="nav-text">永劫无间的缺点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4%E8%83%BD%E6%88%90%E5%8A%9F%EF%BC%9F"><span class="nav-number">1.3.3.</span> <span class="nav-text">为什么永劫无间能成功？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4%E5%8F%A3%E7%A2%91%E4%BB%8E%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BA%BA%E4%BA%BA%E5%A4%B8%E5%88%B0%E5%90%8E%E9%9D%A2%E7%9A%84%E4%BA%BA%E4%BA%BA%E9%AA%82%EF%BC%9F"><span class="nav-number">1.3.4.</span> <span class="nav-text">为什么永劫无间口碑从开始的人人夸到后面的人人骂？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E9%BE%99%E5%B4%96"><span class="nav-number">1.4.</span> <span class="nav-text">四、龙崖</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%8F%E8%90%A5%E5%85%BB%E6%88%90%EF%BC%9A%E7%BB%8F%E8%90%A5%E5%85%BB%E6%88%90%E6%8C%87%E7%9A%84%E6%98%AF%E4%BA%BA%E7%89%A9%E5%85%BB%E6%88%90%E5%92%8C%E5%9F%8E%E9%95%87%E7%BB%8F%E8%90%A5%E4%B8%A4%E4%B8%AA%E6%A8%A1%E5%9D%97%EF%BC%9A"><span class="nav-number">1.4.1.</span> <span class="nav-text">经营养成：经营养成指的是人物养成和城镇经营两个模块：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%82%E6%9C%BA%E6%A8%A1%E5%9D%97%EF%BC%9A%E6%8C%82%E6%9C%BA%E6%A8%A1%E5%9D%97%E5%B0%B1%E6%98%AF%E6%8C%87%E6%8C%82%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%82"><span class="nav-number">1.4.2.</span> <span class="nav-text">挂机模块：挂机模块就是指挂机系统。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%A2%E7%B4%A2%E5%86%92%E9%99%A9%EF%BC%9A%E6%8E%A2%E7%B4%A2%E5%86%92%E9%99%A9%E5%88%86%E4%B8%BA%E4%BB%BB%E5%8A%A1%E6%A8%A1%E5%9D%97%E3%80%81%E6%99%AE%E9%80%9A%E5%85%B3%E5%8D%A1%E4%BB%A5%E5%8F%8A%E5%9B%B0%E9%9A%BE%E5%85%B3%E5%8D%A1%E4%B8%89%E4%B8%AA%E9%83%A8%E5%88%86%E3%80%82"><span class="nav-number">1.4.3.</span> <span class="nav-text">探索冒险：探索冒险分为任务模块、普通关卡以及困难关卡三个部分。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AD%96%E7%95%A5%E6%A8%A1%E5%9D%97%EF%BC%9A%E7%AD%96%E7%95%A5%E6%A8%A1%E5%9D%97%E4%B8%BB%E8%A6%81%E6%8C%87%E7%9A%84%E6%98%AF%E8%81%8C%E4%B8%9A%E6%90%AD%E9%85%8D%E3%80%81%E8%A3%85%E5%A4%87%E5%8F%8A%E5%AE%9D%E7%9F%B3%E6%90%AD%E9%85%8D%E4%B8%A4%E4%B8%AA%E9%83%A8%E5%88%86%E3%80%82"><span class="nav-number">1.4.4.</span> <span class="nav-text">策略模块：策略模块主要指的是职业搭配、装备及宝石搭配两个部分。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BE%99%E5%B4%96%E7%9A%84%E4%BC%98%E7%82%B9"><span class="nav-number">1.4.5.</span> <span class="nav-text">龙崖的优点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BE%99%E5%B4%96%E7%9A%84%E7%BC%BA%E7%82%B9"><span class="nav-number">1.4.6.</span> <span class="nav-text">龙崖的缺点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BE%99%E5%B4%96%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%8A%9F%EF%BC%9F"><span class="nav-number">1.4.7.</span> <span class="nav-text">龙崖为什么成功？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E9%BE%99%E5%B4%96%E7%9A%84%E8%AF%84%E4%BB%B7"><span class="nav-number">1.4.8.</span> <span class="nav-text">对龙崖的评价</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E6%80%BB%E7%BB%93"><span class="nav-number">1.5.</span> <span class="nav-text">五、总结</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%89%8B%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%80%8C%E8%A8%80"><span class="nav-number">1.5.1.</span> <span class="nav-text">对手机游戏而言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E7%AB%AF%E6%B8%B8%E8%80%8C%E8%A8%80"><span class="nav-number">1.5.2.</span> <span class="nav-text">对端游而言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E5%8D%95%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%80%8C%E8%A8%80"><span class="nav-number">1.5.3.</span> <span class="nav-text">对单机游戏而言</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="夜雨听尘"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">夜雨听尘</p>
+  <div class="site-description" itemprop="description">君子坐而论道，少年起而行之</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/MYSTICLC" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;MYSTICLC" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/jun-mo-xiao-45-39" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;jun-mo-xiao-45-39" rel="noopener" target="_blank"><i class="fab fa-quora fa-fw"></i>知乎</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">夜雨听尘</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">15k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">14 分钟</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">总访客数<span id="busuanzi_value_site_uv"></span>人</span>
+    <span class="post-meta-divider">|</span>
+<!-- 不蒜子计数初始值纠正 -->
+<script>
+$(document).ready(function() {
+
+    var int = setInterval(fixCount, 50);  // 50ms周期检测函数
+    var countOffset = 20000;  // 初始化首次数据
+
+    function fixCount() {            
+       if (document.getElementById("busuanzi_container_site_pv").style.display != "none")
+        {
+            $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + countOffset); 
+            clearInterval(int);
+        }                  
+        if ($("#busuanzi_container_site_pv").css("display") != "none")
+        {
+            $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + countOffset); // 加上初始数据 
+            clearInterval(int); // 停止检测
+        }  
+    }
+       	
+});
+</script> 
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共13.3k字</span>
+</div>
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
